@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/info.css">
+    <title>Document</title>
+</head>
+<body> <!-- 3.1 Información y relaciones 3.1.2 Maquetación y regiones -->
+    <div class="container"> <!-- 3.2 Orden adecuado -->
+        <div class="signup-section">
+            <header>Formulario</header>
+            <div class="social-buttons">
+                <button><i class='bx bxl-google'></i> Buenos</button> <!-- 3.1.1 etiquetas semánticas 3.1.1 -->
+                <button><i class="bx bxl-github"></i> Días</button> <!-- 3.1.1 etiquetas semánticas 3.1.1 -->
+            </div>
+
+            <div class="separator">
+                <div class="line"></div>
+                <p>or</p>
+                <div class="line"></div>
+            </div>
+
+            <form>
+                <input type="text" id="signup-name" placeholder="Full name" required> <!-- 3.5 IDENTIFICAR EL PROPÓSITO DE LA ENTRADA -->
+                <input type="email" id="signup-email" placeholder="Email address" required> <!-- 3.5 IDENTIFICAR EL PROPÓSITO DE LA ENTRADA -->
+                <input type="tel" id="signup-phone" placeholder="Phone number" pattern="[0-9]{10}" required> <!-- 3.5 IDENTIFICAR EL PROPÓSITO DE LA ENTRADA -->
+                <a href="">Tu información está segura</a>
+                <button type="submit" class="btnSign">Send Info</button> <!-- 3.1.1 etiquetas semánticas 3.1.1 -->
+            </form>
+        </div>
+
+    </div>
+</body>
+</html>

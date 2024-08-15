@@ -4,9 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Página de Ejemplo</title>
-    <link rel="stylesheet" href="nombre.css">
+    <link rel="stylesheet" href="styles/nombre.css">
 </head>
-<body>
+<body> <!-- 3.1 Información y relaciones 3.1.2 Maquetación y regiones 4.4 Cambio de tamaño del texto (predeterminado) 4.6 Reajuste del texto (predeterminado) -->
     <header>
         <h1>Hotel para mascotas</h1>
     </header>
@@ -15,18 +15,17 @@
         <ul>
             <li><a href="Nosotros">Nosotros</a></li>
             <li><a href="#galeria">Galería</a></li>
-            <li><a href="#Agendareserva.html">Agenda tu reserva</a></li>
+            <li><a href="form.html">Agenda tu reserva</a></li>
             <li><a href="#contacto">Contactanos</a></li>
-            <li><a href="#Trabaja con nosotros">Trabaja con nosotros</a></li>
         </ul>
     </nav>
 
     <section id="Nosotros">
         <h2>Nosotros</h2>
-        <p>Bienvenido a oasis de tranquilidad y 
+        <p style="line-height: 1.8;">Bienvenido a oasis de tranquilidad y 
             lujo en el corazón de Ibague. Ofrecemos una experiencia 
             inigualable donde la elegancia y la comodidad se 
-            fusionan para brindarte una estancia memorable. </p>
+            fusionan para brindarte una estancia memorable. </p> <!-- 4.8 espaciado del texto -->
     </section>
 
     <section id="galeria">
@@ -36,20 +35,24 @@
                 <img src="images/image1.jpg" alt="Golden Retriever Bonito"> <!-- 1. textos alternativos 1.1 contenido no textual -->
             </a>
             <img src="images/image2.jpg" alt="Beagle con carta en la boca"> <!-- 1. textos alternativos 1.1 contenido no textual -->
-            <img src="images/image3.jpg" alt="Perro sacando la"> <!-- 1. textos alternativos 1.1 contenido no textual -->
+            <img src="images/image3.jpg" alt="Perro sacando la lengua"> <!-- 1. textos alternativos 1.1 contenido no textual -->
         </div>
     </section>
 
+    <div class="gallery">
+        <img src="images/imagenTexto.jpg" alt="Perro sacando la lengua"> <!-- 1. textos alternativos 1.1 contenido no textual 4.5 imagenes de texto -->
+    </div>
+
     <div class="container">
         <h1>Video de YouTube</h1>
-        <p>Disfruta viendo este video directamente desde nuestra página:</p>
+        <p>Disfruta viendo este video directamente desde nuestra página:</p> <!-- 3.3 Características sensoriales -->
 
         <iframe 
 
             src="images/HOTEL PARA PERROS.mp4"  
             title="Video de YouTube"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-            allowfullscreen> <!-- 2. contenido multimedia 2.1 multimedia -->
+            allowfullscreen> <!-- 2. contenido multimedia 2.1 multimedia 4.9 visualización del contenido al hacer hover o focus-->
         </iframe>
 
         <iframe 
@@ -64,13 +67,13 @@
 
     <div class="container">
         <audio controls>
-            <source src="images/HOTEL PARA PERROS AUDIO.mp3" type="audio/mp3"><!-- 2. contenido multimedia 2.1 solo audio -->
+            <source src="images/HOTEL PARA PERROS AUDIO.mp3" type="audio/mp3"><!-- 2. contenido multimedia 2.1 solo audio  4.2 control del audio -->
             <source src="audio/mi-audio.ogg" type="audio/ogg"> 
         </audio> 
     </div>
 
     <div class="container">
-        <a href="images/textocancion.txt" download>Descargar Transcripción</a><!-- 2. contenido multimedia 2.1 solo texto -->
+        <a href="images/textocancion.txt" download>Descargar Transcripción Canción</a><!-- 2. contenido multimedia 2.1 solo texto -->
     </div>
 
     <section id="contacto">

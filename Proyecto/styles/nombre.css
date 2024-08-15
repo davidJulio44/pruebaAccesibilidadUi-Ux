@@ -54,12 +54,12 @@ section {
 
 .gallery img {
     width: 30%;
-    border: 10px solid #ccc;
+    border: 10px solid #0011fd; /* 4.7 contraste para elementos gráficos */
 }
 
 .gallery a img {
     width: 95%;
-    border: 10px solid #ccc;
+    border: 10px solid #0011fd; /* 4.7 contraste para elementos gráficos */
 }
 
 footer {
